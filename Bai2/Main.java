@@ -7,7 +7,6 @@ public class Main {
 	
 	private static int n;
 	private static PhuongTien[] pt ;
-	private static boolean check = false;
 	public static void main(String[] args) {
 		
 		String choose;
@@ -64,7 +63,6 @@ public class Main {
 			pt[i].input();;
 			
 		}
-//		check = true;
 	}
 	public static void output1() {
 	            System.out.printf("%-20s%-20s%-20s%-20s%-20s\n", "Tên chủ xe", "Loại xe", "Dung tích", "Trị giá", "Thuế phải nộp");
